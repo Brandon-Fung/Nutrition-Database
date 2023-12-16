@@ -68,8 +68,9 @@ function getRecipe(recipeId, recipe, textbox, apiKey) {
 }
 
 function clearPreviousResults() {
+    // Loop through and clear the contents of recipe divs
     for (let index = 0; index < 10; index++) {
         recipe = document.getElementById(`product${index}`);
-        recipe.innerHTML = '';
+        recipe.innerHTML = ''; // Clear the content
     }
 }
