@@ -2,6 +2,7 @@
 .recipe{
     background-color: #ffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:75%;
     padding: 5px;
     margin: auto;
     margin-bottom: 10px;
@@ -27,7 +28,3 @@
 .recipe:hover{
     background-color: #fffd8d;
 }
-
-
-
-
