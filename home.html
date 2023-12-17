@@ -5,7 +5,9 @@
     <!-- ADDS CSS FILE (RECIPES.CSS ADDED IN JS FILE)-->
     <link rel="stylesheet" href="css/navBar.css">
     <!-- ADDS JS FILE -->
+    <script src="/node_modules/animejs/lib/anime.min.js"></script>
     <script defer type="text/javascript" src="js/foodSearch.js"></script>
+
 
     <style>
         body {
@@ -70,6 +72,7 @@
         /* SEARCH BUTTON */
         button {
             background-color: #4caf50;
+            width: 50%;
             color: #fff;
             padding: 10px 20px;
             border: none;
@@ -90,7 +93,7 @@
 
     <h1>Food Search</h1>
 
-    <form id="foodSearchForm" onsubmit="searchFood(); return false" action="searchResults.html">
+    <form id="foodSearchForm" onsubmit="searchFood(); return false">
         <label id='firstLabel' for="foodQuery">Enter a food item:</label>
         <input type="text" id="foodQuery" name="foodQuery" required>
         <label for="minProtein">Min Protein:</label>
@@ -105,19 +108,8 @@
         <label for="excludeIngredients">Are there any ingredients you would like to exclude?<br> (e.g. eggs, milk, cheese)</label>
         <input type="text" id="excludeIngredients" name="excludeIngredients">
         <br>
-        <button type="submit">Search</button>
+        <button type="submit" id="search">Search</button>
     </form>
-
-    <div id="product0" class="recipe"></div>
-    <div id="product1" class="recipe"></div>
-    <div id="product2" class="recipe"></div>
-    <div id="product3" class="recipe"></div>
-    <div id="product4" class="recipe"></div>
-    <div id="product5" class="recipe"></div>
-    <div id="product6" class="recipe"></div>
-    <div id="product7" class="recipe"></div>
-    <div id="product8" class="recipe"></div>
-    <div id="product9" class="recipe"></div>
 </body>
 
 </html>
