@@ -2,8 +2,8 @@ function searchFood() {
     // SWAP BETWEEN API KEYS IF YOU RUN OUT OF DAILY POINTS
     // const apiKey = "fd8a5b507c5e4b21b1237b9a9ebc54c4"; 
     // const apiKey = "8d0494705f32445c8adef352a5b2b5ec";
-    const apiKey = "26c8689c6b284869b4ae48bb8b092fc9";
-    // const apiKey = "3e8d7d0a1a484214a09fca5a3a7f8fb7";
+    //const apiKey = "26c8689c6b284869b4ae48bb8b092fc9";
+     const apiKey = "3e8d7d0a1a484214a09fca5a3a7f8fb7";
 
     // USER FILTERS (EXCLUDE INGREDIENTS WORKS)
     const foodQuery = document.getElementById("foodQuery").value;
