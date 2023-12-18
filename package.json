@@ -1,6 +1,18 @@
 {
-  "type": "module",
   "dependencies": {
-    "animejs": "^3.2.2"
-  }
+    "@supabase/supabase-js": "^2.39.1",
+    "animejs": "^3.2.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  },
+  "name": "nutrition-database",
+  "description": "INST377 Final Project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e '*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "surf",
+  "license": "ISC"
 }
