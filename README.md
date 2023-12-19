@@ -1,13 +1,13 @@
 # Nutrition-Database
 INST377 Final Project
 
-##Contributers
+## Contributers
 Surafiel Tesfahun, Brandon Fung, Daniel Ashbeck
 
 ## Project Description
 Nutrition Databse project serves as an interactive platform for users to search for food recipes based on specific nutritional criteria. Users can input desired amounts of protein, carbohydrates, and calories, and the page dynamically filters a pre-defined database of food items to display relevant search results. The user-friendly interface includes input fields for each nutritional parameter and a "Search" button to initiate the search process. The results are presented in a clear format below the search form, showcasing food items that meet or exceed the specified nutritional values. This project aims to provide a practical and straightforward tool for individuals seeking tailored recipes that align with their nutritional preferences and dietary requirements.
 
-##Target Browser
+## Target Browser
 The project is designed to be compatible with a wide range of modern web browsers to ensure accessibility and usability for a diverse user base. The project's compatibility extends to popular desktop browsers, including but not limited to:
 
 - Google Chrome
@@ -32,7 +32,7 @@ For a more tailored mobile experience, there may be future considerations for de
 ## User Manual
 Users are introduced with a search menu that has different filter options. The user will first enter a food item and can limit the amount of protein, calories, and carbohydrate. There is an option for users if they want to exclude certain ingridients and will automatically filter out search results based on inputted value. After the user inputs their data, click "Search" to make a API call to retrieve data. There will be mulitple food item listed with the recipes included.
 
-##Developer Manuel
+## Developer Manuel
 This project requires some installments in order to run. There are four dependencies that are used which will be covered on how to install. You will need to open terminal open the file location. Once the terminal found the path:
 
 ----
