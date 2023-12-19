@@ -18,25 +18,25 @@ The project is designed to be compatible with a wide range of modern web browser
 
 By adhering to web standards and utilizing cross-browser compatible HTML, CSS, and JavaScript, the project aims to provide a consistent and seamless experience across these major browsers.
 
-#####Mobile Browsers:
+##### Mobile Browsers:
 
 As the project progresses, there is a plan to optimize and adapt the application for mobile browsers, enabling users to access the food search and recipe functionality on smartphones and tablets. The responsive design principles implemented in the CSS ensure that the application is scalable and user-friendly on smaller screens.
 
 When targeting mobile browsers, additional testing and adjustments will be made to enhance the mobile user experience. The intention is to make the food search application not only accessible on desktop browsers but also responsive and functional on mobile devices.
 
-#####Mobile App Consideration:
+##### Mobile App Consideration:
 
 For a more tailored mobile experience, there may be future considerations for developing a dedicated mobile app. This could involve using frameworks like React Native or Flutter to create a cross-platform mobile application that provides a native-like experience on both iOS and Android devices. The transition from a web-based project to a mobile app could involve leveraging the existing codebase while incorporating mobile-specific optimizations and features.
 
 
-##User Manual
+## User Manual
 Users are introduced with a search menu that has different filter options. The user will first enter a food item and can limit the amount of protein, calories, and carbohydrate. There is an option for users if they want to exclude certain ingridients and will automatically filter out search results based on inputted value. After the user inputs their data, click "Search" to make a API call to retrieve data. There will be mulitple food item listed with the recipes included.
 
 ##Developer Manuel
 This project requires some installments in order to run. There are four dependencies that are used which will be covered on how to install. You will need to open terminal open the file location. Once the terminal found the path:
 
 ----
-#####Steps
+##### Steps
 
 1) Run
 ` npm init`
@@ -57,5 +57,5 @@ This project requires some installments in order to run. There are four dependen
 4) Open a browser and search for "localhost:3000"
 
 ----
-######Side note
+###### Side note
 Switch between the different api key that we provide in foodsearch.js to avoid daily api calls.
