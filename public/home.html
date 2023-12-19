@@ -5,7 +5,7 @@
     <!-- ADDS CSS FILE (RECIPES.CSS ADDED IN JS FILE)-->
     <link rel="stylesheet" href="css/navBar.css">
     <!-- ADDS JS FILE -->
-    <script src="/node_modules/animejs/lib/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
     <script defer type="text/javascript" src="js/foodSearch.js"></script>
 
 
@@ -82,6 +82,15 @@
         button:hover {
             background-color: #327335;
         }
+
+        table, th, td {
+                border: 1px solid black;
+                padding: 5px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 2%;
+                background-color: white;
+        }
     </style>
 </head>
 
@@ -100,10 +109,10 @@
         <input type="number" id="minProtein" name="minProtein" value=0>
         <br><br><br>
         <label for="maxCalories">Max Calories: </label>
-        <input type="number" id="maxCalories" name="maxCalories" value=10000>
+        <input type="number" id="maxCalories" name="maxCalories" value=3000>
         <br><br>
         <label for="maxCarbs">Max Carbs: </label>
-        <input type="number" id="maxCarbs" name="maxCarbs" value=10000>
+        <input type="number" id="maxCarbs" name="maxCarbs" value=3000>
         <br><br>
         <label for="excludeIngredients">Are there any ingredients you would like to exclude?<br> (e.g. eggs, milk, cheese)</label>
         <input type="text" id="excludeIngredients" name="excludeIngredients">

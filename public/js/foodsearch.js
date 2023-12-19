@@ -1,8 +1,8 @@
 function searchFood() {
     // SWAP BETWEEN API KEYS IF YOU RUN OUT OF DAILY POINTS
     // const apiKey = "fd8a5b507c5e4b21b1237b9a9ebc54c4"; 
-    const apiKey = "8d0494705f32445c8adef352a5b2b5ec";
-    //const apiKey = "26c8689c6b284869b4ae48bb8b092fc9";
+    // const apiKey = "8d0494705f32445c8adef352a5b2b5ec";
+    const apiKey = "26c8689c6b284869b4ae48bb8b092fc9";
     //const apiKey = "3e8d7d0a1a484214a09fca5a3a7f8fb7";
 
     // USER FILTERS (EXCLUDE INGREDIENTS WORKS)
@@ -161,6 +161,9 @@ async function getFood() {
             var table = document.createElement('table');
             table.setAttribute('id', 'foodInfo')
 
+            var tableTitle = document.createElement('caption')
+            tableTitle.innerHTML = "<b>Search History</b> <br>"
+
             var tableRow = document.createElement('tr');
 
             var tableHeading1 = document.createElement('th');
@@ -180,6 +183,7 @@ async function getFood() {
             tableRow.appendChild(tableHeading4)
 
             table.appendChild(tableRow)
+            table.appendChild(tableTitle)
 
             // var cutoff = document.getElementById('cutoff');
             // cutoff.insertAdjacentElement("beforebegin", table)
